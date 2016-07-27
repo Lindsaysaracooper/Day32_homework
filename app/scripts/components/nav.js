@@ -1,22 +1,23 @@
 import React from 'react';
-
+import {Link}from 'react-router';
 
 const Nav = React.createClass({
     render: function() {
         return (
-            <nav class = 'nav' >
+            <nav className = 'nav' >
+              <h1> Tarot Cards </h1>
                 <ul>
                   <li>
-                      <p> Card Collection < /p>
-                  </li >
+                      <Link to="/cards" > Card Collection </Link>
+                  </li>
                   <li>
-                      <p> Add New Card </p>
+                      <Link to ="/newCard"> Add New Card </Link>
                 </li>
                 <li>
-                      <p> Login / Sign Up </p>
+                      <Link to ="/login"> Login / Sign Up </Link>
                 </li>
               </ul>
-            </nav >
+            </nav>
 
 
         )

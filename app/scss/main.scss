@@ -1,0 +1,49 @@
+*{
+  font-family: cursive;
+  background-color: #E5ECF2;
+  color:#925210;
+}
+h1{
+  font-size: 3rem;
+  text-align: center;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  font-size: 1.5rem;
+}
+
+nav li{
+  margin-right: 2%;
+    border-right: 1px solid black;
+    border-bottom: 1px black solid;
+    padding-right: 1%;
+}
+
+
+a{
+  text-decoration:none;
+}
+
+img{
+  margin-left: 30%;
+}
+
+.eachCard{
+  list-style: none;
+
+}
+
+input{
+  display: inherit;
+  width: 40%;
+  text-align: center;
+}
+
+form{
+  margin-left: 40%;
+}
